@@ -1,0 +1,106 @@
+[2024-10-20T20:34:00.262+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:34:00.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:34:00.266+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.266+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:34:00.300+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:34:00.783+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.782+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.796+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.795+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.804+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.804+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.816+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.816+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.825+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.825+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.834+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.833+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.843+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.842+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.843+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.843+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:34:00.857+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.856+0000] {dag.py:3252} INFO - Creating ORM DAG for nyc_taxi_data_dump_dag
+[2024-10-20T20:34:00.869+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:00.869+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:34:00.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.637 seconds
+[2024-10-20T20:34:31.516+0000] {processor.py:186} INFO - Started process (PID=357) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:34:31.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:34:31.521+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:31.520+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:34:31.546+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:34:31.577+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:31.577+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:34:31.608+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:34:31.607+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:34:31.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.127 seconds
+[2024-10-20T20:35:02.090+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:35:02.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:35:02.101+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:35:02.094+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:35:02.172+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:35:02.229+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:35:02.229+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:35:02.293+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:35:02.293+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:35:02.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.241 seconds
+[2024-10-20T20:35:32.852+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:35:32.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:35:32.856+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:35:32.855+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:35:32.873+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:35:32.896+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:35:32.895+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:35:32.921+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:35:32.921+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:35:32.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.100 seconds
+[2024-10-20T20:36:03.135+0000] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:36:03.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:36:03.139+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:36:03.138+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:36:03.159+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:36:03.185+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:36:03.185+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:36:03.214+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:36:03.214+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:36:03.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.112 seconds
+[2024-10-20T20:36:33.429+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:36:33.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:36:33.433+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:36:33.433+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:36:33.452+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:36:33.482+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:36:33.482+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:36:33.509+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:36:33.509+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:36:33.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.112 seconds
+[2024-10-20T20:37:03.722+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:37:03.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:37:03.725+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:37:03.725+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:37:03.744+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:37:03.769+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:37:03.769+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:37:03.794+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:37:03.794+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:37:03.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.102 seconds
+[2024-10-20T20:37:34.022+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:37:34.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:37:34.026+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:37:34.026+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:37:34.050+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:37:34.082+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:37:34.082+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:37:34.124+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:37:34.123+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:37:34.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.138 seconds
+[2024-10-20T20:38:04.246+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:38:04.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:38:04.250+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:38:04.249+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:38:04.270+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:38:04.302+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:38:04.301+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:38:04.332+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:38:04.332+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:38:04.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.118 seconds
+[2024-10-20T20:38:34.552+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:38:34.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:38:34.559+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:38:34.559+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:38:34.582+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:38:34.611+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:38:34.611+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:38:34.636+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:38:34.636+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:38:34.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.124 seconds
+[2024-10-20T20:39:04.835+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:39:04.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:39:04.839+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:39:04.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:39:04.858+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:39:04.884+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:39:04.884+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:39:04.912+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:39:04.911+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:39:04.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.109 seconds
+[2024-10-20T20:39:35.133+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:39:35.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:39:35.137+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:39:35.136+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:39:35.158+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:39:35.181+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:39:35.181+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:39:35.207+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:39:35.206+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:39:35.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.104 seconds
+[2024-10-20T20:40:05.415+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:40:05.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:40:05.419+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:40:05.418+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:40:05.437+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:40:05.459+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:40:05.459+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:40:05.484+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:40:05.484+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:40:05.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.098 seconds
+[2024-10-20T20:40:35.704+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:40:35.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/nyc_taxi_data_dag.py for tasks to queue
+[2024-10-20T20:40:35.707+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:40:35.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:40:35.724+0000] {processor.py:925} INFO - DAG(s) 'nyc_taxi_data_dump_dag' retrieved from /opt/airflow/dags/nyc_taxi_data_dag.py
+[2024-10-20T20:40:35.744+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:40:35.744+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-20T20:40:35.767+0000] {logging_mixin.py:190} INFO - [2024-10-20T20:40:35.767+0000] {dag.py:4156} INFO - Setting next_dagrun for nyc_taxi_data_dump_dag to 2024-11-01 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-10-20T20:40:35.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/nyc_taxi_data_dag.py took 0.089 seconds

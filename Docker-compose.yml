@@ -1,0 +1,56 @@
+version: '3.1'
+
+services:
+  localstack:
+    image: localstack/localstack:latest
+    ports:
+      - "4566:4566"
+      - "8081:8081"
+    environment:
+      - SERVICES=s3
+      - DATA_DIR=/var/lib/localstack
+      - PORT_WEB_UI=8081
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - HOST_TMP_FOLDER=/tmp/localstack
+    volumes:
+      - localstack-tmp:/tmp/localstack
+      - localstack-data:/var/lib/localstack
+      - /var/run/docker.sock:/var/run/docker.sock
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_USER: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - db:/var/lib/postgresql/data:rw
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+   
+    ports:
+      - 5432:5432
+  airflow:
+    build:
+      context: .
+      args:
+        - ENV=${ENV:-dev}
+    command: bash -c "airflow scheduler & airflow webserver -p 9090 --debug"
+    depends_on:
+      - db
+    ports:
+      - 8793:8793
+      - 9090:9090
+    volumes:
+#      - ./config/airflow.cfg:/opt/airflow/airflow.cfg
+      - ./local-env/variables.json:/opt/airflow/variables.json
+      - ./local-env/connections.json:/opt/airflow/connections.json
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+
+volumes:
+  localstack-tmp:
+    driver: local
+  localstack-data:
+    driver: local
+  db:
+    driver: local
